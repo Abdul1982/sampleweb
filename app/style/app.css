@@ -1,0 +1,23 @@
+.login-container{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+}
+
+.button-style{
+	background-color: green;
+	height: 25px;
+	width: 70px;
+	margin: none;
+	color:white;
+}
+
+.tab-ul{
+	list-style-type: none;
+}
+.tab-ul li{
+	display: inline-block;
+	width: 100px;
+	background-color: grey;
+}
