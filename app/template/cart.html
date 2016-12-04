@@ -7,11 +7,31 @@
 </head>
 <body>
 <ul class="tab-ul">
-	<li>Men</li>
-	<li>Women</li>
-	<li>Boy</li>
-	<li>Girl</li>
+	<li onclick="handleTabclick('Men')">Men</li>
+	<li onclick="handleTabclick('Women')">Women</li>
+	<li onclick="handleTabclick('Boy')">Boy</li>
+	<li onclick="handleTabclick('Girl')">Girl</li>
 </ul>
+<div id="M">
+	<h3>Men</h3>
+	<p>Conten for men</p>
+</div>
+
+<div id="W" class="hide">
+	<h3>Women</h3>
+	<p>Conten for Women</p>
+</div>
+
+<div id="B" class="hide">
+	<h3>Boy</h3>
+	<p>Conten for Boy</p>
+</div>
+
+<div id="G" class="hide">
+	<h3>Girl</h3>
+	<p>Conten for Girl</p>
+</div>
+<script type="text/javascript" src="../script/cart.js"></script>
 
 </body>
 </html>
